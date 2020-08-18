@@ -1,20 +1,21 @@
 $(document).ready(function () {
-    //displaying the date and time at the top in the header of the page
+
 //the function to create the date and time for the header
 function displayDate() {
     $("#currentDay").html(moment().format("LLLL"));
 } setInterval(displayDate, 1000);
-})
+});
 
+//local storage function
+$(".saveBtn").click(function(){   
+    var input = $(this).siblings(".time-block").val()
+    var whichHour = $(this).siblings(".time-block").attr("id")
+    sessionStorage.setItem(whichHour,input);
 
+});
 
+//hour by hour color changing function
 
-$(".saveBtn").on("click", function(){
-    
-
-})
-
-localStorage.setItem$("#input9")
 
 
 
@@ -32,4 +33,3 @@ localStorage.setItem$("#input9")
 //need color changes based on future or past.
 
 
-+
