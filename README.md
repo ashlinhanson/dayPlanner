@@ -7,6 +7,7 @@ Each time block row is an input field for the user to add notes.
 Organization is key in the professional world so these notes are coded to save them locally into the browser so that if the user closes the browser and reloads it, their notes are still saved and display. 
 ![Local storage example](assets/localstorageplannerexample.png?raw=true)
 ![Refreshed Proof](assets/plannerrefreshexample.png?raw=true)
+Another fun feature added : after the time has passed for a timeblock, it locks the input field so nothing else can be added for that day.
 
 This planner is comprised of HTML5, CSS, and jQuery/JavaScript.
 Below is the deployed URL. Feel free to peruse at your leisure!
