@@ -1,5 +1,5 @@
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 16px;
     line-height: 1;
   }
@@ -15,7 +15,7 @@ body {
   
   .jumbotron {
     text-align: center;
-    background-color: transparent;
+    background-color: lightgray;
     color: black;
     border-radius: 0;
     border-bottom: 10px solid black;
@@ -45,26 +45,26 @@ body {
   }
   
   .past {
-    background-color: #d3d3d3;
+    background-color: #558581;
     color: white;
   }
   
   .present {
-    background-color: #ff6961;
-    color: white;
+    background-color: whitesmoke;
+    color: black;
   }
   
   .future {
-    background-color: #77dd77;
-    color: white;
+    background-color: #DBC046;
+    color: black;
   }
   
   .saveBtn {
     border-left: 1px solid black;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
-    background-color: #06AED5;
-    color: white;
+    background-color: rgb(250, 230, 245);
+    color: black;
   }
   
   .saveBtn:hover {
