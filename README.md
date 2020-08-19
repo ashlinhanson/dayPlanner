@@ -1,49 +1,15 @@
 # work-day-planner
+Welcome to my customized Work Day Planner Application!
+This planner is designed to help the user keep track of their work day hour by hour. It is color coded by past, present, and future engagements. Past is shown as teal, the current hour is shown as white, and the future is shown as a golden yellow. *NOTE: the screenshots were taken after the end of the workday, but if you open the URL provided, it will demonstrate the color changes in real time*
+![Empty Planner Example](assets/planner-screenshot1.png?raw=true)
+Each time block row is an input field for the user to add notes. 
+![Notes example](assets/planner-withdatasaved.png?raw=true)
+Organization is key in the professional world so these notes are coded to save them locally into the browser so that if the user closes the browser and reloads it, their notes are still saved and display. 
+![Local storage example](assets/localstorageplannerexample.png?raw=true)
+![Refreshed Proof](assets/plannerrefreshexample.png?raw=true)
 
-# 05 Third-Party APIs: Work Day Scheduler
+This planner is comprised of HTML5, CSS, and jQuery/JavaScript.
+Below is the deployed URL. Feel free to peruse at your leisure!
 
-Create a simple calendar application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+*  https://ashlinhanson.github.io/work-day-planner/
 
-You'll need to use the [Moment.js](https://momentjs.com/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Moment.js in the browser.
-
-## User Story
-
-```
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
-
-## Acceptance Criteria
-
-```
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-WHEN I click into a timeblock
-THEN I can enter an event
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
-```
-
-STEP ONE : youtube moment.js and local storage(refresh and retain data) and learn how to use it
-STEP TWO : 
-
-
-The following animation demonstrates the application functionality:
-
-![day planner demo](./Assets/05-third-party-apis-homework-demo.gif)
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
