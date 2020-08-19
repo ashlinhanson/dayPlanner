@@ -3,21 +3,21 @@ $(document).ready(function () {
   function displayDate() {
     $("#currentDay").html(moment().format("LLLL"));
   }
-  setInterval(displayDate, 1000);//updates the time/date each second.
+  setInterval(displayDate, 1000); //updates the time/date each second.
 
   //local storage function
-$(".saveBtn").click(function () {
-    var input = $(this).siblings(".time-block").val();//variable to store the user data
-    var whichHour = $(this).siblings(".time-block").attr("id");//variable determining which timeblock
-    localStorage.setItem(whichHour, input);//saves the two together in local storage
-});
+  $(".saveBtn").click(function () {
+    var input = $(this).siblings(".time-block").val(); //variable to store the user data
+    var whichHour = $(this).siblings(".time-block").attr("id"); //variable determining which timeblock
+    localStorage.setItem(whichHour, input); //saves the two together in local storage
+  });
 
   //hour by hour color changing function
-  var currentHour = moment().hours();//variable for the current time
-    $(".time-block").each(function () {
-    var calendarHour = parseInt($(this).attr("id"));//variable to compare to the current time
-    
-        //conditions to determine what color to display
+  var currentHour = moment().hours(); //variable for the current time
+  $(".time-block").each(function () {
+    var calendarHour = parseInt($(this).attr("id")); //variable to compare to the current time
+
+    //conditions to determine what color to display
     if (calendarHour === currentHour) {
       $(this).addClass("present");
       $(this).removeClass("future");
