@@ -30,6 +30,7 @@ $(document).ready(function () {
       $(this).addClass("past");
       $(this).removeClass("future");
       $(this).removeClass("present");
+      $(this).prop("disabled", true);
     }
   });
 
