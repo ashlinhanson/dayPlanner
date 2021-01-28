@@ -1,6 +1,6 @@
 # Day Planner
 This web application is an hourly planner that allows the user to plan out their 9-5 work day by the hour.
-## [Try it yourself!](https://ashlinhanson.github.io/work-day-planner/) 
+## [Check it out!](https://ashlinhanson.github.io/work-day-planner/) 
 ![Notes example](assets/screenshotwithdata.png?raw=true)
 
 ## Use
