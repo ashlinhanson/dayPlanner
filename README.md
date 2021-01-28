@@ -4,7 +4,7 @@ This web application is an hourly planner that allows the user to plan out their
 ![Notes example](assets/screenshotwithdata.png?raw=true)
 
 ## Use
-Upon navigating to the page, each hour block is color coded to indicate past, present, and future according to when the user is accessing the app. Users are only able to edit hour blocks for their current hour or later. The user can save the contents of each input field with the save/lock button on the right side of its hour block, which saves them to local storage so they will still be there even if the user refreshes the page.\
+Upon navigating to the page, each hour block is color coded to indicate past, present, and future according to when the user is accessing the app. Users are only able to edit hour blocks for their current hour or later. The user can save the contents of each input field with the save/lock button on the right side of its hour block, which saves them to local storage so they will still be there even if the user refreshes the page.
 
 ## Installation Instructions
 These instructions will walk you through how to run this web application locally.
