@@ -1,16 +1,30 @@
-# work-day-planner
-Welcome to my customized Work Day Planner Application!
-This planner is designed to help the user keep track of their work day hour by hour. It is color coded by past, present, and future engagements. Past is shown as teal, the current hour is shown as white, and the future is shown as a golden yellow. *NOTE: the screenshots were taken after the end of the workday, but if you open the URL provided, it will demonstrate the color changes in real time*
-![Empty Planner Example](assets/initialscreenshot.png?raw=true)
-Each time block row is an input field for the user to add notes. 
+# Day Planner
+This web application is an hourly planner that allows the user to plan out their 9-5 work day by the hour.
+## [Try it yourself!](https://ashlinhanson.github.io/work-day-planner/) 
 ![Notes example](assets/screenshotwithdata.png?raw=true)
-Organization is key in the professional world so these notes are coded to save them locally into the browser so that if the user closes the browser and reloads it, their notes are still saved and display. 
-![Local storage example](assets/localstoragescreenshot.png?raw=true)
-![Refreshed Proof](assets/refreshedscreenshot.png?raw=true)
-Another fun feature added : after the time has passed for a timeblock, it locks the input field so nothing else can be added for that day.
 
-This planner is comprised of HTML5, CSS, and jQuery/JavaScript.
-Below is the deployed URL. Feel free to peruse at your leisure!
+## Use
+Upon navigating to the page, each hour block is color coded to indicate past, present, and future according to when the user is accessing the app. Users are only able to edit hour blocks for their current hour or later. The user can save the contents of each input field with the save/lock button on the right side of its hour block, which saves them to local storage so they will still be there even if the user refreshes the page.\
 
-*  https://ashlinhanson.github.io/work-day-planner/
+## Installation Instructions
+These instructions will walk you through how to run this web application locally.
+
+First you will need to clone the repository to your local machine
+````
+https://github.com/ashlinhanson/dayPlanner.git
+````
+Once it is cloned, you can open it in your preferred brower and begin planning your work day.
+
+## Technologies Used 
+* HTML5 
+* CSS3 
+* JavaScript 
+* JQuery 
+* Bootstrap
+* Moment.js
+* Local Storage
+
+
+
+
 
